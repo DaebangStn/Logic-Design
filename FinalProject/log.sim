@@ -1,0 +1,49 @@
+%Warning-PINMISSING: ../../top.v:79: Cell has missing pin: st
+%Warning-PINMISSING: Use "/* verilator lint_off PINMISSING */" and lint_on around source to disable this message.
+%Warning-IMPLICIT: ../..//clock_stop.v:48: Signal definition not found, creating implicitly: _seg1_1l
+%Warning-WIDTHCONCAT: ../..//bin_to_bcd_7bit.v:12: Unsized numbers/parameters not allowed in concatenations.
+%Warning-WIDTHCONCAT: ../..//bin_to_bcd_7bit.v:12: Unsized numbers/parameters not allowed in replications.
+%Warning-WIDTHCONCAT: ../..//bin_to_bcd_7bit.v:16: Unsized numbers/parameters not allowed in concatenations.
+%Warning-WIDTHCONCAT: ../..//bin_to_bcd_7bit.v:16: Unsized numbers/parameters not allowed in replications.
+%Warning-WIDTH: ../..//clock_stop.v:48: Output port connection 'seg1' expects 7 bits on the pin connection, but pin connection's VARREF '_seg1_1l' generates 1 bits.
+%Warning-WIDTHCONCAT: ../..//clock_core.v:70: Unsized numbers/parameters not allowed in concatenations.
+%Warning-WIDTHCONCAT: ../..//clock_core.v:70: Unsized numbers/parameters not allowed in replications.
+%Warning-CASEINCOMPLETE: ../..//pulse_generator.v:14: Case values incompletely covered (example pattern 0x2)
+%Warning-CASEINCOMPLETE: ../..//clock_core.v:96: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_stop.v:67: Case values incompletely covered (example pattern 0x3)
+%Warning-CASEINCOMPLETE: ../..//clock_stop.v:102: Case values incompletely covered (example pattern 0x3)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:78: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:123: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:135: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:147: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:161: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:173: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:185: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:197: Case values incompletely covered (example pattern 0x0)
+%Warning-CASEX: ../..//clock_alarm.v:216: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//clock_alarm.v:215: Case values incompletely covered (example pattern 0xb)
+%Warning-CASEX: ../..//alarm_get_next.v:11: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEX: ../..//alarm_get_next.v:24: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:24: Case values incompletely covered (example pattern 0x3)
+%Warning-CASEX: ../..//alarm_get_next.v:37: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:37: Case values incompletely covered (example pattern 0x6)
+%Warning-CASEX: ../..//alarm_get_next.v:50: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:50: Case values incompletely covered (example pattern 0xc)
+%Warning-CASEX: ../..//alarm_get_next.v:63: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:63: Case values incompletely covered (example pattern 0x18)
+%Warning-CASEX: ../..//alarm_get_next.v:76: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:76: Case values incompletely covered (example pattern 0x30)
+%Warning-CASEX: ../..//alarm_get_next.v:89: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:89: Case values incompletely covered (example pattern 0x60)
+%Warning-CASEX: ../..//alarm_get_next.v:102: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:102: Case values incompletely covered (example pattern 0xc0)
+%Warning-CASEX: ../..//alarm_get_next.v:115: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:115: Case values incompletely covered (example pattern 0x180)
+%Warning-CASEX: ../..//alarm_get_next.v:128: Suggest casez (with ?'s) in place of casex (with X's)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:128: Case values incompletely covered (example pattern 0x300)
+%Warning-CASEINCOMPLETE: ../..//alarm_get_next.v:9: Case values incompletely covered (example pattern 0xb)
+%Warning-CASEINCOMPLETE: ../..//display_driver.v:94: Case values incompletely covered (example pattern 0x3)
+%Warning-CASEINCOMPLETE: ../..//display_driver.v:102: Case values incompletely covered (example pattern 0x3)
+%Warning-CASEINCOMPLETE: ../..//segment_status.v:22: Case values incompletely covered (example pattern 0x3)
+%Error: Exiting due to 46 warning(s)
+%Error: Command Failed /home/geon/LogicDesign/FinalProject/SNU-BoardSim/verilator/bin/verilator_bin --cc ../../top.v -I../../ --exe sim.cpp

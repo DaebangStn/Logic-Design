@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=CLOCK Sim
+#Terminal=true
+Comment=CLOCK Sim
+Icon=/opt/Xilinx/14.7/ISE_DS/ISE/icons/coregen.ico
+Exec=/usr/bin/gnome-terminal --geometry=93x47 -e "bash -c 'cd \"$(dirname "\"%k\"")\"; bash "./sim.sh"  '"
+Name[en_US]=Clock Simulator

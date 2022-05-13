@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/geon/LogicDesign/FinalProject/bin_to_bcd_7bit_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="bin_to_bcd_7bit_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/bin_to_bcd_7bit_tb/out0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out0[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin_to_bcd_7bit_tb/out1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bin_to_bcd_7bit_tb/in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in[6:0]</obj_property>
+      <obj_property name="ObjectShortName">in[6:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Recover Sim
+#Terminal=true
+Comment=Recover Sim
+Icon=/opt/Xilinx/14.7/ISE_DS/ISE/icons/coregen.ico
+Exec=/usr/bin/gnome-terminal --geometry=93x47 -e "bash -c 'cd \"$(dirname "\"%k\"")\"; bash "./recover.sh"  '"
+Name[en_US]=Recover Simulator
